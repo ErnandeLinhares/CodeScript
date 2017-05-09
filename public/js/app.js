@@ -1,1 +1,1 @@
-angular.module("codeScript", ["ngRoute" /*,"filterName"*/]);
+angular.module("codeScript", ["ngRoute"]);

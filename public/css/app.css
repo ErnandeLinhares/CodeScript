@@ -10,22 +10,6 @@ body{
     border-radius: 2px;
     width: 500px;
 }
-
-
-.form-control {margin: 5px 0}
-.selecionado { background: yellow !important}
-.negrito {font-weight: bold;}
-
-
-.accordion-title{
-    background: linear-gradient(#fff, #e6e6e6);
-    padding: 6px;
-    border-bottom: 1px solid #cecbcb;
-    cursor: pointer;
-}
-
-.accordion-content{
-	background: #711777;
-    padding: 1px 6px;
-    color: #fff
+.view-container{
+    margin:60px 0;
 }

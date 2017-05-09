@@ -1,18 +1,9 @@
 angular.module("codeScript")
 .config(function($routeProvider){
-
-	$routeProvider.when("/listaTelefonica", {
-		templateUrl: "view/listaTelefonica.html"
-	});
-
-	$routeProvider.when("/directives", {
-		templateUrl: "view/directives.html"
-	});
-
-	$routeProvider.when("/usuario", {
-		templateUrl: "view/usuario.html"
-	});
-
-	$routeProvider.otherwise("/usuario");
-	
+	$routeProvider.when("/", { templateUrl: "view/home.html" })
+	.when("/sobre", { templateUrl: "view/sobre.html" })
+	.when("/contato", { templateUrl: "view/contato.html" })
+	.when("/portifolio", { templateUrl: "view/portifolio.html" })
+	.when("/blog", { templateUrl: "view/blog.html" })
+	.otherwise({redirectTo:'/'});
 });
