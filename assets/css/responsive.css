@@ -1,0 +1,26 @@
+/* MIN WIDTH 992PX & MAX WIDTH 1199PX */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* MAX WIDTH 991PX */
+@media only screen and (max-width: 991px) {
+
+}
+
+
+/* MAX WIDTH 767PX */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/* MAX WIDTH 640PX */
+@media only screen and (max-width: 640px) {
+
+}
+
+html, body {
+  overflow-x: hidden;
+}
