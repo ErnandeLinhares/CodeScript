@@ -86,12 +86,38 @@ ul{
 .section {  }
 .content{
 	padding: 40px 20px 140px;
-  width: 96%;
+  /*width: 96%;*/
+}
+.full-content{
+  padding:40px 0px 140px;
 }
 .section .logo {
 	width:80%;
 	margin:240px auto;
 	text-align:center;
+}
+.header-sobre{
+  padding:0 20px;
+}
+.perfil {
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  flex-wrap: wrap;
+  margin-bottom: -140px;
+}
+.perfil-c{
+  width:50%;
+  text-align:center;
+  cursor:pointer;
+}
+.perfil-c .section{
+  text-align:center;
+  padding: 5%;
+}
+.perfil-d{
+  background: #82b5eb;
+  color: #fff;
 }
 
 .portifolio-work {
